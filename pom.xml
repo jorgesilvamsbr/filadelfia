@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.3.1.RELEASE</version>
+    <version>1.5.2.RELEASE</version>
   </parent>
   <groupId>filadelfia</groupId>
   <artifactId>filadelfia</artifactId>
@@ -80,6 +80,11 @@
       <artifactId>hibernate-validator</artifactId>
       <version>4.1.0.Final</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.transaction</groupId>
+      <artifactId>javax.transaction-api</artifactId>
+      <version>1.2</version>
     </dependency>
   </dependencies>
   <repositories>
